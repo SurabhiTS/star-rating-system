@@ -1,0 +1,63 @@
+body{
+    max-height:100vh;
+    overflow: hidden;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+
+.card{
+    padding:10px;
+    max-width:90%;
+    margin:20% auto;
+    border:none;
+    border-radius:15px;
+    box-shadow:0px 0px 10px 2px #ddd;
+    text-align:center;
+    color:#0047AB;
+    font-size:20px;
+    @media screen and (min-width:576px){
+        width:450px;
+        margin:10% auto;
+    }
+}
+.card .fa-star{
+   
+    padding:10px;
+    color:#ddd;
+    font-size:30px;
+}
+#star-container{
+    cursor:pointer;
+}
+#star-container:hover,#star-container:active{
+    background-color: none;
+}
+#img-container{
+    padding-top:10px;
+}
+#text{
+    padding-top:10px ;
+    width:70%;
+    margin:auto;
+}
+
+#submit,#no-submit{
+    width:90%;
+    margin:5%;
+    font-size:16px;
+    font-weight:500;
+    display:block;
+    background-color: white;
+    color:#aaa;
+    padding:10px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    @media screen and (min-width:576px) {
+        margin:10px auto;
+        width:300px;
+    }
+}
+#submit{
+    background-color: rgb(245,245,245)
+}
